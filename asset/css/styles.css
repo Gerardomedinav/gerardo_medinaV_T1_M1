@@ -24,7 +24,6 @@ img#img_manada {
 
 img#imagen-fondo {
    transform: scaleX(1);
-   height: 50%;
    max-width: 100%;
 }
 img#imagen1, img#imagen2, img#imagen3,img#imagen4, img#imagen5{
