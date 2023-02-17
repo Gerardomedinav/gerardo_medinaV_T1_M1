@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://127.0.0.1:5501/registration.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, embed[type="application/pdf"] {
+    filter: invert(100%) hue-rotate(180deg) brightness(80%) contrast(90%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: #0f1112;
+   --darkreader-neutral-text: #adaaa6;
+   --darkreader-selection-background: #003e88;
+   --darkreader-selection-text: #bab8b6;
+}</style><script class="darkreader darkreader--proxy">(function injectProxy() {
+        document.dispatchEvent(
+            new CustomEvent("__darkreader__inlineScriptsAllowed")
+        );
+        const addRuleDescriptor = Object.getOwnPropertyDescriptor(
+            CSSStyleSheet.prototype,
+            "addRule"
+        );
+        const insertRuleDescriptor = Object.getOwnPropertyDescriptor(
+            CSSStyleSheet.prototype,
+            "insertRule"
+        );
+        const deleteRuleDescriptor = Object.getOwnPropertyDescriptor(
+            CSSStyleSheet.prototype,
+            "deleteRule"
+        );
+        const removeRuleDescriptor = Object.getOwnPropertyDescriptor(
+            CSSStyleSheet.prototype,
+            "removeRule"
+        );
+        const documentStyleSheetsDescriptor = Object.getOwnPropertyDescriptor(
+            Document.prototype,
+            "styleSheets"
+        );
+        const cleanUp = () => {
+            Object.defineProperty(
+                CSSStyleSheet.prototype,
+                "addRule",
+                addRuleDescriptor
+            );
+            Object.defineProperty(
+                CSSStyleSheet.prototype,
+                "insertRule",
+                insertRuleDescriptor
+            );
+            Object.defineProperty(
+                CSSStyleSheet.prototype,
+                "deleteRule",
+                deleteRuleDescriptor
+            );
+            Object.defineProperty(
+                CSSStyleSheet.prototype,
+                "removeRule",
+                removeRuleDescriptor
+            );
+            document.removeEventListener("__darkreader__cleanUp", cleanUp);
+            document.removeEventListener(
+                "__darkreader__addUndefinedResolver",
+                addUndefinedResolver
+            );
+        };
+        const addUndefinedResolver = (e) => {
+            customElements.whenDefined(e.detail.tag).then(() => {
+                document.dispatchEvent(
+                    new CustomEvent("__darkreader__isDefined", {
+                        detail: {tag: e.detail.tag}
+                    })
+                );
+            });
+        };
+        document.addEventListener("__darkreader__cleanUp", cleanUp);
+        document.addEventListener(
+            "__darkreader__addUndefinedResolver",
+            addUndefinedResolver
+        );
+        const updateSheetEvent = new Event("__darkreader__updateSheet");
+        function proxyAddRule(selector, style, index) {
+            addRuleDescriptor.value.call(this, selector, style, index);
+            if (
+                this.ownerNode &&
+                !this.ownerNode.classList.contains("darkreader")
+            ) {
+                this.ownerNode.dispatchEvent(updateSheetEvent);
+            }
+            return -1;
+        }
+        function proxyInsertRule(rule, index) {
+            const returnValue = insertRuleDescriptor.value.call(
+                this,
+                rule,
+                index
+            );
+            if (
+                this.ownerNode &&
+                !this.ownerNode.classList.contains("darkreader")
+            ) {
+                this.ownerNode.dispatchEvent(updateSheetEvent);
+            }
+            return returnValue;
+        }
+        function proxyDeleteRule(index) {
+            deleteRuleDescriptor.value.call(this, index);
+            if (
+                this.ownerNode &&
+                !this.ownerNode.classList.contains("darkreader")
+            ) {
+                this.ownerNode.dispatchEvent(updateSheetEvent);
+            }
+        }
+        function proxyRemoveRule(index) {
+            removeRuleDescriptor.value.call(this, index);
+            if (
+                this.ownerNode &&
+                !this.ownerNode.classList.contains("darkreader")
+            ) {
+                this.ownerNode.dispatchEvent(updateSheetEvent);
+            }
+        }
+        function proxyDocumentStyleSheets() {
+            return Object.setPrototypeOf(
+                [...documentStyleSheetsDescriptor.get.call(this)].filter(
+                    (styleSheet) =>
+                        !styleSheet.ownerNode.classList.contains("darkreader")
+                ),
+                StyleSheetList.prototype
+            );
+        }
+        Object.defineProperty(
+            CSSStyleSheet.prototype,
+            "addRule",
+            Object.assign({}, addRuleDescriptor, {value: proxyAddRule})
+        );
+        Object.defineProperty(
+            CSSStyleSheet.prototype,
+            "insertRule",
+            Object.assign({}, insertRuleDescriptor, {value: proxyInsertRule})
+        );
+        Object.defineProperty(
+            CSSStyleSheet.prototype,
+            "deleteRule",
+            Object.assign({}, deleteRuleDescriptor, {value: proxyDeleteRule})
+        );
+        Object.defineProperty(
+            CSSStyleSheet.prototype,
+            "removeRule",
+            Object.assign({}, removeRuleDescriptor, {value: proxyRemoveRule})
+        );
+        Object.defineProperty(
+            Document.prototype,
+            "styleSheets",
+            Object.assign({}, documentStyleSheetsDescriptor, {
+                get: proxyDocumentStyleSheets
+            })
+        );
+    })()</script><style class="darkreader darkreader--user-agent" media="screen">html {
+    background-color: #131516 !important;
+}
+html, body, input, textarea, select, button {
+    background-color: #131516;
+}
+html, body, input, textarea, select, button {
+    border-color: #5c564b;
+    color: #bab8b6;
+}
+a {
+    color: #2974cc;
+}
+table {
+    border-color: #43494b;
+}
+::placeholder {
+    color: #8e8981;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #444900 !important;
+    color: #bab8b6 !important;
+}
+::-webkit-scrollbar {
+    background-color: #1a1c1d;
+    color: #89837a;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #373b3e;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #464b4e;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #3a3e41;
+}
+::-webkit-scrollbar-corner {
+    background-color: #131516;
+}
+::selection {
+    background-color: #003e88 !important;
+    color: #bab8b6 !important;
+}
+::-moz-selection {
+    background-color: #003e88 !important;
+    color: #bab8b6 !important;
+}</style>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mighty Ducks Hockey League</title>
+    <link rel="shortcut icon" href="http://127.0.0.1:5501/asset/img/favicon.ico">
+    <link rel="stylesheet" href="./Mighty Ducks Hockey League_files/styles.css"><style class="darkreader darkreader--sync" media="screen"></style>
+<meta name="darkreader" content="774219a51a5b6b45caaf75193c7ccdd7"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: #634300 !important;
+    border-color: #ad8d0f !important;
+    color: #c2baa0 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+a[href="https://coinmarketcap.com/"] > svg[width="94"][height="16"] > path {
+    fill: var(--darkreader-neutral-text) !important;
+}
+#edge-translate-panel-body {
+    color: var(--darkreader-neutral-text) !important;
+}</style><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><style class="darkreader darkreader--sync" media="screen"></style></head>
+
+<body class="__fb-dark-mode" data-new-gr-c-s-check-loaded="14.1097.0" data-gr-ext-installed="">
+    <header>
+        <img id="imagen-fondo" src="./Mighty Ducks Hockey League_files/design2_image1.jpg" alt="jugadores de hockey en hielo">
+        <img id="logo" src="./Mighty Ducks Hockey League_files/Logo_Mighty_ducks-01.png" alt="logo jugador de hockey mighty Ducks">
+        <img id="img_manada" src="./Mighty Ducks Hockey League_files/Imagen-animada-Bandada-de-aves-06.gif" alt="imagen .git patos volando en v">
+        <h1 id="titulo1">Mighty Ducks Hockey League</h1>
+        <h2 id="titulo2">Registration</h2>
+
+
+    </header>
+
+    <main>
+        <div class="container">
+
+
+            <div id="navegacion">
+                <nav>
+                    <ul>
+                        <li><a href="http://127.0.0.1:5501/home.html">Home</a></li>
+                        <li><a href="http://127.0.0.1:5501/About.html">About</a></li>
+                        <li> <a href="http://127.0.0.1:5501/contact.html">Contact</a></li>
+                        <li> <a href="http://127.0.0.1:5501/rules.html">Rules</a></li>
+                        <li> <a href="http://127.0.0.1:5501/game_informacion.html">Game Information</a></li>
+                        <li><a href="http://127.0.0.1:5501/registration.html">Registration</a></li>
+                    </ul>
+                    <img id="imagen2" src="./Mighty Ducks Hockey League_files/hockey_2.jpg" alt="jugadores de hockey en hielo">
+                </nav>
+            </div>
+            <div id="contenido">
+                <h2 style="margin-left: 15px;">Registration Form</h2>
+                <form action="http://127.0.0.1:5501/show_data.html" method="get">
+                    <p style="color: rgb(55, 27, 99); --darkreader-inline-color:#8e75b4;" data-darkreader-inline-color="">* campo obligatorio</p>
+
+                    <fieldset>
+                        <legend>Player's First </legend>
+                        <label for="apenom">Name:</label>
+                        <input name="name" type="text" id="apenom"><span style="color: rgb(55, 27, 99); --darkreader-inline-color:#8e75b4;" data-darkreader-inline-color="">*</span>
+                        <label for="apenom">Last Name:</label>
+                        <input name="lastName" type="text" id="lastName"><span style="color: rgb(55, 27, 99); --darkreader-inline-color:#8e75b4;" data-darkreader-inline-color="">*</span>
+                        <br><br>
+                        <label for="apenom">Street Address:</label>
+                        <input name="address" type="text" id="address"><span style="color: rgb(55, 27, 99); --darkreader-inline-color:#8e75b4;" data-darkreader-inline-color="">*</span>
+                        <label for="apenom">Zip Code</label>
+                        <input name="code" type="text" id="zip_code"><span style="color: rgb(55, 27, 99); --darkreader-inline-color:#8e75b4;" data-darkreader-inline-color="">*</span>
+                        <br><br>
+                        <label>
+                           Birth Date  
+                        <input name="fecha_nacimiento" type="date">
+                        </label>
+                        
+                        <label>
+                            Gender: Famele
+                            <input type="radio" name="gender" value="F">
+                        </label>
+                        <label>
+                            Male
+                            <input type="radio" name="gender" value="M">
+                        </label> <br>
+
+                        
+                        <label>
+                            Grade:
+                            <input type="radio" name="grade" value="PreS">
+                            Pre-School
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="1st">
+                            <sup>1st</sup>
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="2st">
+                            <sup>2st</sup>
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="3st">
+                            <sup>3st</sup>
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="4st">
+                            <sup>4st</sup>
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="5st">
+                            <sup>5st</sup>
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <p> Which elementary school do you live near?</p><br>
+                        <p> Closest School: </p> <br>
+                        <label>
+                            <input type="radio" name="closet_school" value="AJ_Katzenmaier">
+                            AJ Katzenmaier
+                        </label>
+                        <label>
+                            <input type="radio" name="closet_school" value="Marjorie_P_Hart">
+                            Marjorie P Hart
+                        </label><br>
+                        <label>
+                            <input type="radio" name="closet_school" value="Greenbay">
+                            Greenbay
+                        </label>
+                        <label>
+                            <input type="radio" name="closet_school" value="North_Elementary">
+                            North Elementary
+                        </label><br>
+                        <label>
+                            <input type="radio" name="closet_school" value="Howard_A_Yeager">
+                            Howard A Yeager
+                        </label>
+                        <label>
+                            <input type="radio" name="closet_school" value="South_Elementary">
+                            South Elementary
+                        </label><br>
+                    </fieldset>
+                    <fieldset>
+                        
+                        <label>
+                            What position(s) do you normally play? (check all that apply)<br>
+                            <input type="checkbox" name="position1" value="1">
+                            Forward
+                        </label>
+                        <label>
+                            <input type="checkbox" name="position2" value="2">
+                            Midfield
+                        </label> <br>
+                        <label>
+                            <input type="checkbox" name="position3" value="3">
+                            Defense
+                        </label>
+                        <label>
+                            <input type="checkbox" name="position4" value="4">
+                            Goalkeeper
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        
+                        <label>
+                            Uniform Size:<br>
+                            <input type="radio" name="size" value="1">
+                            Youth Smal
+                        </label>
+                        <label>
+                            <input type="radio" name="size" value="2">
+                            Medium
+                        </label><br>
+                        <label>
+                            <input type="radio" name="size" value="3">
+                            Youth Medium
+                        </label>
+                        <label>
+                            <input type="radio" name="size" value="4">
+                            Large
+                        </label><br>
+                        <label>
+                            <input type="radio" name="size" value="5">
+                            Youth Large
+                        </label>
+                        <label>
+                            <input type="radio" name="size" value="6">
+                            Extra-Large
+                        </label><br>
+                        <label>
+                            <input type="radio" name="size" value="7">
+                            Small
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label>
+                        <pre>                         Permission to Play <br>
+                         l, the parent or guardian of the minor registrant, agree that the registrant and I will
+                         abide by all <br>
+                         the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of
+                         physical injury <br>
+                         associated with hockey and in consideration for the "League" accepting the registrant for
+                         its hockey <br>
+                         programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their
+                         employees <br>
+                         and associated personnel and volunteers,including the facilities used for practices and
+                         games, against <br>
+                         any claim by or on behalf of the registrant as a result of the registrant's participation in
+                         the <br>
+                         programand/orbeing transported to or from MDHL sponsored activities,which transportation
+                         <br>
+                         By signing below, I herebyagree andauthorizethe above.ln addition, by signing below, lalso
+                         acknowledge <br>
+                         that I have read the cancellation policy and agree to its terms. <br>
+                        </pre>
+
+
+                            <input type="checkbox" name="condition" value="1"> I agree with the terms and conditions
+                            <span style="color: rgb(55, 27, 99); --darkreader-inline-color:#8e75b4;" data-darkreader-inline-color="">*</span><br>
+                        </label>
+                            <label for="parent">Parent/GuardianSignature:
+                                <input name="parent_name" type="text" id="name_parent">
+                                <span style="color: rgb(55, 27, 99); --darkreader-inline-color:#8e75b4;" data-darkreader-inline-color="">*</span><br>
+                            </label>
+                            <label>
+                                Email
+                                <input name="email" placeholder="email@mail.com" type="email"><span style="color: rgb(55, 27, 99); --darkreader-inline-color:#8e75b4;" data-darkreader-inline-color="">*</span><br>
+                            </label>
+                            <label>
+                                Date
+                                <input type="date" name="date_inscrip" value="date">
+                                <span style="color: rgb(55, 27, 99); --darkreader-inline-color:#8e75b4;" data-darkreader-inline-color="">*</span><br>
+                            </label>
+                        
+                    </fieldset>
+                    <button>Enviar</button>
+                    <!-- <input type="submit" value="Enviar"> -->
+                </form>
+
+            </div>
+        </div>
+
+        <footer>
+            <p> Argentina Programa © 2023 | FrontEnd | Gerardo Medina Villalba </p>
+        </footer>
+
+    </main>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+<script>
+		function returnCommentSymbol(language = "javascript") {
+			const languageObject = {
+				bat: "@REM",
+				c: "//",
+				csharp: "//",
+				cpp: "//",
+				closure: ";;",
+				coffeescript: "#",
+				dockercompose: "#",
+				css: "/*DELIMITER*/",
+				"cuda-cpp": "//",
+				dart: "//",
+				diff: "#",
+				dockerfile: "#",
+				fsharp: "//",
+				"git-commit": "//",
+				"git-rebase": "#",
+				go: "//",
+				groovy: "//",
+				handlebars: "{{!--DELIMITER--}}",
+				hlsl: "//",
+				html: "<!--DELIMITER-->",
+				ignore: "#",
+				ini: ";",
+				java: "//",
+				javascript: "//",
+				javascriptreact: "//",
+				json: "//",
+				jsonc: "//",
+				julia: "#",
+				latex: "%",
+				less: "//",
+				lua: "--",
+				makefile: "#",
+				markdown: "<!--DELIMITER-->",
+				"objective-c": "//",
+				"objective-cpp": "//",
+				perl: "#",
+				perl6: "#",
+				php: "<!--DELIMITER-->",
+				powershell: "#",
+				properties: ";",
+				jade: "//-",
+				python: "#",
+				r: "#",
+				razor: "<!--DELIMITER-->",
+				restructuredtext: "..",
+				ruby: "#",
+				rust: "//",
+				scss: "//",
+				shaderlab: "//",
+				shellscript: "#",
+				sql: "--",
+				svg: "<!--DELIMITER-->",
+				swift: "//",
+				tex: "%",
+				typescript: "//",
+				typescriptreact: "//",
+				vb: "'",
+				xml: "<!--DELIMITER-->",
+				xsl: "<!--DELIMITER-->",
+				yaml: "#"
+			}
+			return languageObject[language].split("DELIMITER")
+		}
+		var savedChPos = 0
+		var returnedSuggestion = ''
+		let editor, doc, cursor, line, pos
+		pos = {line: 0, ch: 0}
+		var suggestionsStatus = false
+		var docLang = "python"
+		var suggestionDisplayed = false
+		var isReturningSuggestion = false
+		document.addEventListener("keydown", (event) => {
+		setTimeout(()=>{
+			editor = event.target.closest('.CodeMirror');
+			if (editor){
+				const codeEditor = editor.CodeMirror
+				if(!editor.classList.contains("added-tab-function")){
+					editor.classList.add("added-tab-function")
+					codeEditor.removeKeyMap("Tab")
+					codeEditor.setOption("extraKeys", {Tab: (cm)=>{
+
+						if(returnedSuggestion){
+							acceptTab(returnedSuggestion)
+						}
+						else{
+							cm.execCommand("defaultTab")
+						}
+					}})
+				}
+				doc = editor.CodeMirror.getDoc()
+				cursor = doc.getCursor()
+				line = doc.getLine(cursor.line)
+				pos = {line: cursor.line, ch: line.length}
+
+				if(cursor.ch > 0){
+					savedChPos = cursor.ch
+				}
+
+				const fileLang = doc.getMode().name
+				docLang = fileLang
+				const commentSymbol = returnCommentSymbol(fileLang)
+				if (event.key == "?"){
+					var lastLine = line
+					lastLine = lastLine.slice(0, savedChPos - 1)
+
+					if(lastLine.trim().startsWith(commentSymbol[0])){
+						lastLine += " "+fileLang
+						lastLine = lastLine.split(commentSymbol[0])[1]
+						window.postMessage({source: 'getQuery', payload: { data: lastLine } } )
+						isReturningSuggestion = true
+						displayGrey("\nBlackbox loading...")
+					}
+				}else if(event.key === "Enter" && suggestionsStatus && !isReturningSuggestion){
+					var query = doc.getRange({ line: Math.max(0,cursor.line-10), ch: 0 }, { line: cursor.line, ch: line.length })
+					window.postMessage({source: 'getSuggestion', payload: { data: query, language: docLang } } )
+					displayGrey("Blackbox loading...")
+				}else if(event.key === "ArrowRight" && returnedSuggestion){
+					acceptTab(returnedSuggestion)
+				}else if(event.key === "Enter" && isReturningSuggestion){
+					displayGrey("\nBlackbox loading...")
+				}else if(event.key === "Escape"){
+					displayGrey("")
+				}
+			}
+		}, 0)
+		})
+
+		function acceptTab(text){
+		if (suggestionDisplayed){
+			displayGrey("")
+			doc.replaceRange(text, pos)
+			returnedSuggestion = ""
+			updateSuggestionStatus(false)
+		}
+		}
+		function acceptSuggestion(text){
+			displayGrey("")
+			doc.replaceRange(text, pos)
+			returnedSuggestion = ""
+			updateSuggestionStatus(false)
+		}
+		function displayGrey(text){
+			if(!text){
+				document.querySelector(".blackbox-suggestion").remove()
+				return
+			}
+			var el = document.querySelector(".blackbox-suggestion")
+			if(!el){
+				el = document.createElement('span')
+				el.classList.add("blackbox-suggestion")
+				el.style = 'color:grey'
+				el.innerText = text
+			}
+			else{
+				el.innerText = text
+			}
+			
+			var lineIndex = pos.line;
+			editor.getElementsByClassName('CodeMirror-line')[lineIndex].appendChild(el)
+		}
+		function updateSuggestionStatus(s){
+			suggestionDisplayed = s
+			window.postMessage({source: 'updateSuggestionStatus', status: suggestionDisplayed, suggestion: returnedSuggestion})
+		}
+		window.addEventListener('message', (event)=>{
+		if (event.source !== window ) return
+		if (event.data.source == 'return'){
+			isReturningSuggestion = false
+			const formattedCode = formatCode(event.data.payload.data)
+			returnedSuggestion = formattedCode
+			displayGrey(formattedCode)
+			updateSuggestionStatus(true)
+		}
+		if(event.data.source == 'suggestReturn'){
+			returnedSuggestion = event.data.payload.data
+			displayGrey(event.data.payload.data)
+			updateSuggestionStatus(true)
+		}
+		if(event.data.source == 'suggestionsStatus'){
+			suggestionsStatus = event.data.payload.enabled
+		}
+		if(event.data.source == 'acceptSuggestion'){
+			
+			acceptSuggestion(event.data.suggestion)
+		}
+		})
+		document.addEventListener("keyup", function(){
+			returnedSuggestion = ""
+			updateSuggestionStatus(false)
+		})
+		function formatCode(data) {
+			if (Array.isArray(data)) {
+				var finalCode = ""
+				var pairs = []
+		
+				const commentSymbol = returnCommentSymbol(docLang)
+				data.forEach((codeArr, idx) => {
+					const code = codeArr[0]
+					var desc = codeArr[1]
+					const descArr = desc.split("\n")
+					var finalDesc = ""
+					descArr.forEach((descLine, idx) => {
+						const whiteSpace = descLine.search(/\S/)
+						if (commentSymbol.length < 2 || idx === 0) {
+							finalDesc += insert(descLine, whiteSpace, commentSymbol[0])
+						}
+						if (commentSymbol.length > 1 && idx === descArr.length - 1) {
+							finalDesc = finalDesc + commentSymbol[1] + "\n"
+						}
+					})
+		
+					finalCode += finalDesc + "\n\n" + code
+					pairs.push(finalCode)
+				})
+				return "\n"+pairs.join("\n")
+			}
+		
+			return "\n"+data
+		}
+		
+		function insert(str, index, value) {
+			return str.substr(0, index) + value + str.substr(index)
+		}
+	</script></body><style type="text/css"></style><style class="darkreader darkreader--sync" media="screen"></style><div id="relaxer" style="transition: opacity 0.1s ease 0s; z-index: 2147483647; margin: 0px; border-radius: 0px; padding: 0px; background: rgb(250, 197, 99); pointer-events: none; position: fixed; top: -10%; right: -10%; width: 120%; height: 120%; opacity: 0.32; mix-blend-mode: multiply; display: block; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor:#724b04;" data-darkreader-inline-bgimage="" data-darkreader-inline-bgcolor=""></div><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
